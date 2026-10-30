@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shiferaa Hembee Foundation | Ethiopia</title>
+
+<meta name="description" content="Shiferaa Hembee Foundation works to promote nutrition, education, youth empowerment, peacebuilding and sustainable community development in Ethiopia.">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+html{scroll-behavior:smooth}
+
+body{
+font-family:Arial,sans-serif;
+color:#26352c;
+background:#f7faf8;
+line-height:1.7;
+}
+
+header{
+background:#104d32;
+color:white;
+padding:18px 6%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.logo{font-size:21px;font-weight:bold}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:7px;
+font-size:14px;
+}
+
+nav a:hover{color:#f5ce52}
+
+.hero{
+min-height:540px;
+padding:100px 8%;
+display:flex;
+align-items:center;
+color:white;
+background:linear-gradient(90deg,rgba(0,50,30,.88),rgba(0,50,30,.35)),
+url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1600') center/cover;
+}
+
+.hero-content{max-width:750px}
+
+.hero h1{font-size:48px;line-height:1.2;margin-bottom:20px}
+
+.hero p{font-size:19px;margin-bottom:25px}
+
+.btn{
+display:inline-block;
+background:#efc84a;
+color:#173a29;
+padding:12px 23px;
+border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+margin:5px;
+}
+
+section{padding:70px 8%}
+
+.title{text-align:center;margin-bottom:35px}
+
+.title h2{color:#105334;font-size:32px}
+
+.title p{color:#777}
+
+.about{
+max-width:950px;
+margin:auto;
+text-align:center;
+font-size:17px;
+}
+
+.green{background:#eaf4ed}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:22px;
+}
+
+.card{
+background:white;
+padding:27px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,.07);
+}
+
+.card h3{color:#145a37;margin-bottom:10px}
+
+.icon{font-size:38px;margin-bottom:10px}
+
+.project{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.project img{
+width:100%;
+height:190px;
+object-fit:cover;
+}
+
+.project div{padding:20px}
+
+.project h3{color:#145a37}
+
+.banner{
+background:#145334;
+color:white;
+text-align:center;
+padding:60px 8%;
+}
+
+.banner h2{font-size:32px;margin-bottom:15px}
+
+.contact{
+background:#eaf4ed;
+text-align:center;
+}
+
+.contact p{margin:10px}
+
+.contact a{color:#145334}
+
+footer{
+background:#092e1c;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+footer a{color:#efc84a;text-decoration:none}
+
+@media(max-width:700px){
+header{justify-content:center;text-align:center}
+nav{margin-top:12px}
+.hero h1{font-size:35px}
+.hero{padding:80px 7%}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">SHIFERAA HEMBEE FOUNDATION</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#programs">Programs</a>
+<a href="#projects">Projects</a>
+<a href="#partners">Partners</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+
+<h1>Building Stronger Communities, Creating Better Futures</h1>
+
+<p>
+Working together for healthier families, empowered youth,
+educated communities and peaceful societies in Ethiopia.
+</p>
+
+<a class="btn" href="#programs">Our Programs</a>
+<a class="btn" href="#contact">Partner With Us</a>
+
+</div>
+</section>
+
+<section id="about">
+
+<div class="title">
+<h2>About Our Foundation</h2>
+<p>Who We Are</p>
+</div>
+
+<div class="about">
+
+<p>
+Shiferaa Hembee Foundation is a community-focused initiative
+committed to supporting vulnerable communities and promoting
+sustainable development in Ethiopia.
+</p>
+
+<br>
+
+<p>
+Our areas of focus include nutrition, food security, education,
+youth empowerment, women's and children's wellbeing,
+peacebuilding and community development.
+</p>
+
+<br>
+
+<p>
+We believe that strong communities are built through
+partnership, participation, equal opportunities and
+sustainable solutions.
+</p>
+
+</div>
+</section>
+
+<section class="green">
+
+<div class="title">
+<h2>Our Vision & Mission</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Our Vision</h3>
+<p>
+A peaceful, healthy, educated and economically empowered
+community where everyone has an opportunity to build
+a better future.
+</p>
+</div>
+
+<div class="card">
+<h3>Our Mission</h3>
+<p>
+To work with communities, government institutions,
+development partners and donors to improve wellbeing,
+strengthen livelihoods and create sustainable opportunities.
+</p>
+</div>
+
+<div class="card">
+<h3>Our Values</h3>
+<p>
+Transparency, accountability, equality, respect,
+community participation, partnership and integrity.
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="programs">
+
+<div class="title">
+<h2>Our Programs</h2>
+<p>Priority Areas of Intervention</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">🥗</div>
+<h3>Nutrition & Food Security</h3>
+<p>
+Promoting nutrition awareness, food security and
+community-based support for vulnerable families.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">👩‍👧</div>
+<h3>Women & Children</h3>
+<p>
+Supporting women's participation, child wellbeing,
+protection and equal opportunities.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">👥</div>
+<h3>Youth Empowerment</h3>
+<p>
+Promoting entrepreneurship, leadership, life skills
+and employment opportunities for young people.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">📚</div>
+<h3>Education & Skills</h3>
+<p>
+Supporting access to education, vocational training
+and practical skills development.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🕊️</div>
+<h3>Peacebuilding</h3>
+<p>
+Promoting youth dialogue, peaceful coexistence,
+social cohesion and conflict prevention.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🌱</div>
+<h3>Community Development</h3>
+<p>
+Supporting sustainable livelihoods, community
+participation and local development initiatives.
+</p>
+</div>
+
+</div>
+</section>
+
+<section class="green" id="projects">
+
+<div class="title">
+<h2>Projects & Initiatives</h2>
+<p>Our Development Priorities</p>
+</div>
+
+<div class="cards">
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=900" alt="Youth development">
+<div>
+<h3>Youth Development</h3>
+<p>Entrepreneurship, leadership and skills development initiatives.</p>
+</div>
+</div>
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900" alt="Community support">
+<div>
+<h3>Nutrition Support</h3>
+<p>Nutrition awareness and food security initiatives.</p>
+</div>
+</div>
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1509099836639-18ba02c7f2d4?w=900" alt="Education">
+<div>
+<h3>Education</h3>
+<p>Learning opportunities and skills development.</p>
+</div>
+</div>
+
+</div>
+
+<p style="text-align:center;margin-top:25px">
+Our future project announcements will be published here.
+</p>
+
+</section>
+
+<section id="partners">
+
+<div class="title">
+<h2>Partnership & Collaboration
